@@ -1,0 +1,32 @@
+name: your_project_name
+description: A new Flutter project.
+
+publish_to: 'none' # Remove esta linha se você quiser publicar no pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.17.0
+  sqflite: ^2.0.0+4
+  path: ^1.8.0
+  table_calendar: ^3.0.6
+
+  # O seguinte adiciona a fonte Cupertino Icons ao seu aplicativo.
+  # Use com a classe CupertinoIcons para ícones no estilo iOS.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - imagens/axtasklogo.jpg
+    - imagens/semtarefas.jpg
